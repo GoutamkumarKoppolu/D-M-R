@@ -1,0 +1,21 @@
+node_modules/
+coverage/
+*.log
+*.tsbuildinfo
+lib/
+.DS_Store
+
+# Secrets — never commit (requirements 2.1.6)
+.env
+.env.*
+!.env.example
+google-services.json
+GoogleService-Info.plist
+*service-account*.json
+serviceAccount*.json
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log

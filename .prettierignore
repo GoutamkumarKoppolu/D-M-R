@@ -1,0 +1,6 @@
+node_modules
+lib
+coverage
+apps/mobile/android
+apps/mobile/ios
+requirements.md
